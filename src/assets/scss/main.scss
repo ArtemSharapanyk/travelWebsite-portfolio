@@ -1,3 +1,4 @@
-*{
-    background-color: #000;
-}
+@import './libs';
+@import './vars';
+@import './font';
+@import './mixins/adaptiveFont.scss';
