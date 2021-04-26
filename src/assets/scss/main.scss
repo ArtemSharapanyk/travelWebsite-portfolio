@@ -2,3 +2,34 @@
 @import './vars';
 @import './font';
 @import './mixins/adaptiveFont.scss';
+
+html{
+    @include adaptiv-font(40, 35);
+    font-family: $main-font;
+    color: $base-color;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: $base-color;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+//ui
+@import './blocks/ui/navigation.scss';
+
+//blocks
+@import './blocks/header.scss';
+
+
+
+@import './media';
+
